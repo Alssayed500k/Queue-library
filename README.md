@@ -114,7 +114,7 @@ public:
 		return _MyList.UpdateItem(NodeIndex, newValue);
 	}
     
-	void InsetAtFornt(T Value)
+	void InsertAtFornt(T Value)
 	{
 		_MyList.InsertAtBeginning(Value);
 	}
@@ -134,3 +134,5 @@ public:
 		_MyList.Clear();
 	}
 };
+---
+Author: Anwer EL-Sayed.
