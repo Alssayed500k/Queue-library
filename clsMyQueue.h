@@ -69,7 +69,7 @@ public:
     }
     
     
-    void  InsetAtFornt(T Value)
+    void  InsertAtFornt(T Value)
     {
     	_MyList.InsertAtBeginning(Value);
     }
