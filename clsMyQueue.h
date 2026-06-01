@@ -51,6 +51,46 @@ public:
 		return _MyList.GetItem(size() - 1);
 	}
 
+	//---More extensions----
+	void reverse()
+	{
+		_MyList.Reverse();
+	}
+	
+	bool InsertAfter(int nodeIndex , T value)
+	{
+		_MyList.InsertAfter(nodeIndex , value);
+	}
+	
+	
+	bool UpdateItem(int NodeIndex , T newValue)
+    {
+    	return _MyList.UpdateItem(NodeIndex , newValue);
+    }
+    
+    
+    void  InsetAtFornt(T Value)
+    {
+    	_MyList.InsertAtBeginning(Value);
+    }
+    
+
+    void InsertAtBack(T value)
+    {
+    	_MyList.InsertAtEnd(value);
+    }
+    
+   
+    T GetItem(int index)
+    {
+    	return _MyList.GetItem(index);
+    }
+    
+    		
+    void Clear()
+    {
+    	_MyList.Clear();
+	}
 	
 	
 };
